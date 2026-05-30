@@ -1,0 +1,6 @@
+{
+  "name": "جواد - Jawad Al-Qlawei Landing Page",
+  "description": "A minimalist, calming personal landing page for جواد, featuring a modern simulated AI Chat Widget with quick social media links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-cairo: "Cairo", sans-serif;
+  
+  --color-sage-50: #f4f7f4;
+  --color-sage-100: #e6ede6;
+  --color-sage-200: #cfddcf;
+  --color-sage-300: #abbfa9;
+  --color-sage-400: #8ba689;
+  --color-sage-500: #6b896f;
+  --color-sage-600: #4c6b50;
+  --color-sage-700: #3c5440;
+  --color-sage-800: #2a362b;
+
+  --color-cream-50: #fcfcfb;
+  --color-cream-100: #faf8f5;
+  --color-cream-200: #f3eee7;
+  --color-cream-300: #e5dbcd;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.font-cairo {
+  font-family: var(--font-cairo);
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(171, 191, 169, 0.5);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(76, 107, 80, 0.4);
+}
+
+/* Mobile Scrollbar Hide */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
